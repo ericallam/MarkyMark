@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077191E917F70329003A2D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077191E817F70329003A2D83 /* Foundation.framework */; };
+		077191EB17F70329003A2D83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077191EA17F70329003A2D83 /* CoreGraphics.framework */; };
+		077191ED17F70329003A2D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077191EC17F70329003A2D83 /* UIKit.framework */; };
+		077191F317F70329003A2D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 077191F117F70329003A2D83 /* InfoPlist.strings */; };
+		077191F517F70329003A2D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077191F417F70329003A2D83 /* main.m */; };
+		077191F917F70329003A2D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077191F817F70329003A2D83 /* AppDelegate.m */; };
+		077191FC17F70329003A2D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077191FA17F70329003A2D83 /* Main.storyboard */; };
+		077191FF17F70329003A2D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077191FE17F70329003A2D83 /* ViewController.m */; };
+		0771920117F70329003A2D83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0771920017F70329003A2D83 /* Images.xcassets */; };
+		0771920817F70329003A2D83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0771920717F70329003A2D83 /* XCTest.framework */; };
+		0771920917F70329003A2D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077191E817F70329003A2D83 /* Foundation.framework */; };
+		0771920A17F70329003A2D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077191EC17F70329003A2D83 /* UIKit.framework */; };
+		0771921217F70329003A2D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0771921017F70329003A2D83 /* InfoPlist.strings */; };
+		0771921417F70329003A2D83 /* MarkyMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0771921317F70329003A2D83 /* MarkyMarkTests.m */; };
+		0771922017F707AC003A2D83 /* libMMMarkdown-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0771921E17F707AC003A2D83 /* libMMMarkdown-iOS.a */; };
+		0771922717F70A2F003A2D83 /* LiveOutputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0771922517F70A2F003A2D83 /* LiveOutputViewController.m */; };
+		0771922817F70A2F003A2D83 /* LiveOutputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0771922617F70A2F003A2D83 /* LiveOutputViewController.xib */; };
+		0771922A17F70D33003A2D83 /* Example.md in Resources */ = {isa = PBXBuildFile; fileRef = 0771922917F70D33003A2D83 /* Example.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0771920B17F70329003A2D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077191DD17F70329003A2D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077191E417F70329003A2D83;
+			remoteInfo = MarkyMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077191E517F70329003A2D83 /* MarkyMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkyMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077191E817F70329003A2D83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		077191EA17F70329003A2D83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		077191EC17F70329003A2D83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		077191F017F70329003A2D83 /* MarkyMark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarkyMark-Info.plist"; sourceTree = "<group>"; };
+		077191F217F70329003A2D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		077191F417F70329003A2D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077191F617F70329003A2D83 /* MarkyMark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarkyMark-Prefix.pch"; sourceTree = "<group>"; };
+		077191F717F70329003A2D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		077191F817F70329003A2D83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		077191FB17F70329003A2D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077191FD17F70329003A2D83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		077191FE17F70329003A2D83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0771920017F70329003A2D83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0771920617F70329003A2D83 /* MarkyMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkyMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0771920717F70329003A2D83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0771920F17F70329003A2D83 /* MarkyMarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarkyMarkTests-Info.plist"; sourceTree = "<group>"; };
+		0771921117F70329003A2D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0771921317F70329003A2D83 /* MarkyMarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkyMarkTests.m; sourceTree = "<group>"; };
+		0771921E17F707AC003A2D83 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
+		0771921F17F707AC003A2D83 /* MMMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		0771922417F70A2F003A2D83 /* LiveOutputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveOutputViewController.h; sourceTree = "<group>"; };
+		0771922517F70A2F003A2D83 /* LiveOutputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveOutputViewController.m; sourceTree = "<group>"; };
+		0771922617F70A2F003A2D83 /* LiveOutputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveOutputViewController.xib; sourceTree = "<group>"; };
+		0771922917F70D33003A2D83 /* Example.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Example.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077191E217F70329003A2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077191EB17F70329003A2D83 /* CoreGraphics.framework in Frameworks */,
+				077191ED17F70329003A2D83 /* UIKit.framework in Frameworks */,
+				0771922017F707AC003A2D83 /* libMMMarkdown-iOS.a in Frameworks */,
+				077191E917F70329003A2D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0771920317F70329003A2D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0771920817F70329003A2D83 /* XCTest.framework in Frameworks */,
+				0771920A17F70329003A2D83 /* UIKit.framework in Frameworks */,
+				0771920917F70329003A2D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077191DC17F70329003A2D83 = {
+			isa = PBXGroup;
+			children = (
+				077191EE17F70329003A2D83 /* MarkyMark */,
+				0771920D17F70329003A2D83 /* MarkyMarkTests */,
+				077191E717F70329003A2D83 /* Frameworks */,
+				077191E617F70329003A2D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077191E617F70329003A2D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077191E517F70329003A2D83 /* MarkyMark.app */,
+				0771920617F70329003A2D83 /* MarkyMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077191E717F70329003A2D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0771921D17F707AC003A2D83 /* MMMarkdown */,
+				077191E817F70329003A2D83 /* Foundation.framework */,
+				077191EA17F70329003A2D83 /* CoreGraphics.framework */,
+				077191EC17F70329003A2D83 /* UIKit.framework */,
+				0771920717F70329003A2D83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		077191EE17F70329003A2D83 /* MarkyMark */ = {
+			isa = PBXGroup;
+			children = (
+				077191F717F70329003A2D83 /* AppDelegate.h */,
+				077191F817F70329003A2D83 /* AppDelegate.m */,
+				077191FA17F70329003A2D83 /* Main.storyboard */,
+				077191FD17F70329003A2D83 /* ViewController.h */,
+				077191FE17F70329003A2D83 /* ViewController.m */,
+				0771920017F70329003A2D83 /* Images.xcassets */,
+				077191EF17F70329003A2D83 /* Supporting Files */,
+				0771922417F70A2F003A2D83 /* LiveOutputViewController.h */,
+				0771922517F70A2F003A2D83 /* LiveOutputViewController.m */,
+				0771922617F70A2F003A2D83 /* LiveOutputViewController.xib */,
+			);
+			path = MarkyMark;
+			sourceTree = "<group>";
+		};
+		077191EF17F70329003A2D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077191F017F70329003A2D83 /* MarkyMark-Info.plist */,
+				077191F117F70329003A2D83 /* InfoPlist.strings */,
+				077191F417F70329003A2D83 /* main.m */,
+				077191F617F70329003A2D83 /* MarkyMark-Prefix.pch */,
+				0771922917F70D33003A2D83 /* Example.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0771920D17F70329003A2D83 /* MarkyMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0771921317F70329003A2D83 /* MarkyMarkTests.m */,
+				0771920E17F70329003A2D83 /* Supporting Files */,
+			);
+			path = MarkyMarkTests;
+			sourceTree = "<group>";
+		};
+		0771920E17F70329003A2D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0771920F17F70329003A2D83 /* MarkyMarkTests-Info.plist */,
+				0771921017F70329003A2D83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0771921D17F707AC003A2D83 /* MMMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				0771921E17F707AC003A2D83 /* libMMMarkdown-iOS.a */,
+				0771921F17F707AC003A2D83 /* MMMarkdown.h */,
+			);
+			name = MMMarkdown;
+			path = Frameworks/MMMarkdown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077191E417F70329003A2D83 /* MarkyMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0771921717F70329003A2D83 /* Build configuration list for PBXNativeTarget "MarkyMark" */;
+			buildPhases = (
+				077191E117F70329003A2D83 /* Sources */,
+				077191E217F70329003A2D83 /* Frameworks */,
+				077191E317F70329003A2D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkyMark;
+			productName = MarkyMark;
+			productReference = 077191E517F70329003A2D83 /* MarkyMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0771920517F70329003A2D83 /* MarkyMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0771921A17F70329003A2D83 /* Build configuration list for PBXNativeTarget "MarkyMarkTests" */;
+			buildPhases = (
+				0771920217F70329003A2D83 /* Sources */,
+				0771920317F70329003A2D83 /* Frameworks */,
+				0771920417F70329003A2D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0771920C17F70329003A2D83 /* PBXTargetDependency */,
+			);
+			name = MarkyMarkTests;
+			productName = MarkyMarkTests;
+			productReference = 0771920617F70329003A2D83 /* MarkyMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077191DD17F70329003A2D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Code School";
+				TargetAttributes = {
+					0771920517F70329003A2D83 = {
+						TestTargetID = 077191E417F70329003A2D83;
+					};
+				};
+			};
+			buildConfigurationList = 077191E017F70329003A2D83 /* Build configuration list for PBXProject "MarkyMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077191DC17F70329003A2D83;
+			productRefGroup = 077191E617F70329003A2D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077191E417F70329003A2D83 /* MarkyMark */,
+				0771920517F70329003A2D83 /* MarkyMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077191E317F70329003A2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0771920117F70329003A2D83 /* Images.xcassets in Resources */,
+				0771922A17F70D33003A2D83 /* Example.md in Resources */,
+				0771922817F70A2F003A2D83 /* LiveOutputViewController.xib in Resources */,
+				077191F317F70329003A2D83 /* InfoPlist.strings in Resources */,
+				077191FC17F70329003A2D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0771920417F70329003A2D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0771921217F70329003A2D83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077191E117F70329003A2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077191FF17F70329003A2D83 /* ViewController.m in Sources */,
+				0771922717F70A2F003A2D83 /* LiveOutputViewController.m in Sources */,
+				077191F917F70329003A2D83 /* AppDelegate.m in Sources */,
+				077191F517F70329003A2D83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0771920217F70329003A2D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0771921417F70329003A2D83 /* MarkyMarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0771920C17F70329003A2D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077191E417F70329003A2D83 /* MarkyMark */;
+			targetProxy = 0771920B17F70329003A2D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077191F117F70329003A2D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077191F217F70329003A2D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		077191FA17F70329003A2D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077191FB17F70329003A2D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0771921017F70329003A2D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0771921117F70329003A2D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0771921517F70329003A2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0771921617F70329003A2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0771921817F70329003A2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarkyMark/MarkyMark-Prefix.pch";
+				INFOPLIST_FILE = "MarkyMark/MarkyMark-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eric/Desktop/MarkyMark/Frameworks/MMMarkdown,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0771921917F70329003A2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarkyMark/MarkyMark-Prefix.pch";
+				INFOPLIST_FILE = "MarkyMark/MarkyMark-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eric/Desktop/MarkyMark/Frameworks/MMMarkdown,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0771921B17F70329003A2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarkyMark.app/MarkyMark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarkyMark/MarkyMark-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarkyMarkTests/MarkyMarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0771921C17F70329003A2D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarkyMark.app/MarkyMark";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarkyMark/MarkyMark-Prefix.pch";
+				INFOPLIST_FILE = "MarkyMarkTests/MarkyMarkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077191E017F70329003A2D83 /* Build configuration list for PBXProject "MarkyMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0771921517F70329003A2D83 /* Debug */,
+				0771921617F70329003A2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0771921717F70329003A2D83 /* Build configuration list for PBXNativeTarget "MarkyMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0771921817F70329003A2D83 /* Debug */,
+				0771921917F70329003A2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0771921A17F70329003A2D83 /* Build configuration list for PBXNativeTarget "MarkyMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0771921B17F70329003A2D83 /* Debug */,
+				0771921C17F70329003A2D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077191DD17F70329003A2D83 /* Project object */;
+}
